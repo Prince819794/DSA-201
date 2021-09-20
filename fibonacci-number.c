@@ -2,7 +2,7 @@
 
 int arr[20001][1000],k=1;
 
-void fibonacci(int n) //Fibonacci Function
+void find_fibonacci(int n) 
 {
     //adding two numbers in row-wise
 		while(k<n)        
@@ -33,6 +33,6 @@ int main() //Driver code
 	arr[1][999]=1;
 	int n;
 	scanf("%d",&n);
-	fibonacci(n);
+	find_fibonacci(n);
 	return 0;
 }
